@@ -1,0 +1,25 @@
+body {
+  background-image: url(imgs/OBX.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.background-container {
+  position: center;
+  width: 600px;
+  height: 800px;
+  background-image: url(imgs/Letter.png);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin-left: 650px;
+  margin-top: 70px;
+}
+
+/* .foreground-image {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  width: 400px;
+  height: auto;
+} */
