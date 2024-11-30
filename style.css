@@ -31,6 +31,28 @@ font-style: normal;
 font-size: 20px;
 }
 
+ /* Responsive design */
+ @media (max-width: 768px) {
+  .background-container {
+    height: 150vh; /* Adjust height on smaller screens */
+    padding: 15px;
+  }
+  .background-container #container {
+    padding: 10px;
+  }
+  .background-container p {
+    font-size: 1rem; /* Smaller font size for mobile */
+    padding-top: 120px;
+    margin: 30px;
+  }
+}
+h1{ 
+font-family: "liebegerda", sans-serif;
+font-weight: 700;
+font-style: italic;
+text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(246, 223, 134), 0 0 0.2em rgb(245, 184, 141);
+}
+
 /* .foreground-image {
   position: absolute;
   top: 100%;
