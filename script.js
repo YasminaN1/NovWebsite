@@ -7,10 +7,13 @@ let noun1 = prompt('Enter a noun to specify the item! e.g., backpack, compass')
 let pluralNoun1 = prompt('Enter a plural noun for something essential to bring! e.g., flashlights, snacks, ropes')
 let exclamation = prompt('make up a code word if something dangerous or exciting happens!')
 
-Dear ${userName},
+let content = `<p>Dear <u>${userName}</u>,</p>
 
-I hope this letter finds you feeling ${adjective1} and ready for an adventure! The Pogues and I have discovered an old map that could lead us straight to the legendary gold of the Outer Banks.
+<p> I hope this letter finds you feeling <u>${adjective1}</u> and ready for an adventure! The Pogues and I have discovered an old map that could lead us straight to the legendary crown of the Outer Banks.
 
-We’ll be meeting at ${place} at ${time} to begin our journey. Make sure to pack a ${adjective2} ${noun1} and don’t forget your ${pluralNoun1}—trust me, we’ll need them.
+We’ll be meeting at <u>${place}</u> at <u>${time}</u> to begin our journey. Make sure to pack a <u>${adjective2} ${noun1}</u> and don’t forget your <u>${pluralNoun1}</u>—trust me, we’ll need them.
 
-If we run into trouble, just yell "${exclamation}" and we’ll stick to the plan. I can’t wait to see you there—let’s make history, Pogues-style!
+If we run into trouble, just yell <u>"${exclamation}"</u> and we’ll stick to the plan. I can’t wait to see you there—let’s make history, Pogues-style! </p>
+`; 
+
+document.getElementById("container").innerHTML=content;

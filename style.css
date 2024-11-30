@@ -1,7 +1,10 @@
 body {
   background-image: url(imgs/OBX.jpeg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
+  min-height: 100vh; /* Vertical height   */
+  min-width: 600px;
 }
 
 .background-container {
@@ -12,8 +15,20 @@ body {
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  margin-left: 650px;
-  margin-top: 70px;
+  margin: 20px auto;
+}
+
+.background-container #container {
+  padding: 200px 50px 0px 50px;
+font-family: "relation-one", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.background-container p {
+font-family: "relation-one", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
 }
 
 /* .foreground-image {
